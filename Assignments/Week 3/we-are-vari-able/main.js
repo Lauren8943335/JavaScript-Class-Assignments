@@ -1,8 +1,19 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
-
-
+const myFirstName = "lauren";   
+const myLastName = "Rugless"; 
+const myFavoriteCeleb = "MayaAngelou"; 
+const mySentence = "sentence";
+alert(myLastName + myFirstName); 
+const  myLuckyNum = 7; 
+const myAge = 40;
+const myHeight = 55;
+const myFavoriteYear= 1983;
+const mySum = 5 +2317 + 36;
+const myProduct = 232 * 43 / 2 +4;
+const myHeightAndAge = myAge + myHeight;
+alert(myHeightAndAge)
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
