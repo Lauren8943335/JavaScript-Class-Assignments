@@ -1,13 +1,13 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
-x=3; 
-y=10; 
-z=4; 
+let x=3; 
+let y=10; 
+let z=4; 
 
-greeting = "Hello";
-firstName = "Lauren";
-callStatus = "ringing"; 
+let greeting = "hello";
+let firstName = "Lauren";
+let callStatus = "ringing"; 
 
 function double() { 
 x = x * 2; 
@@ -21,10 +21,9 @@ function square() {
 z = z ** 2; 
 } 
 
-function beNice(greeting, firstName) {    
-console.log(beNice)
+function beNice() {    
+return greeting = "hello" + " " + firstName
 }
-
 
 function changeName() { 
 firstName = "Danger"
