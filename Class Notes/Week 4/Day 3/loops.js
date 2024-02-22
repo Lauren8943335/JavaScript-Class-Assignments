@@ -99,3 +99,85 @@ const webTechs = [
 let countries=["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
 //Using the above countries array, create an array for countries length'.
 //Expected outcome is [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+
+
+
+//Practice 
+
+//for loop repeats some code a limited number of times 
+//syntax: for(intialize; counter; increment/decrement) each time you go though a loop is called an iteration
+for(let i = 0; i <= 2; i++) {
+  console.log ('Hello'); 
+ }
+
+ for(let i = 0; i <= 100; i++){ 
+    console.log("lauren")
+}
+
+ //count down --decrement
+ for(let i = 10; i > 0; i--) {
+    console.log (i); 
+ }
+
+ //continue and break
+
+ for(let i = 1; i <=20; i++){ 
+     if (i == 13){ 
+    continue; 
+     }
+     else { 
+        console.log(i); 
+     }
+ }
+
+ for (let i = 0; i < 5; i++) { 
+    if (i === 2) { 
+    continue; 
+   } 
+    console.log(i); 
+  }
+    //0134
+
+ //continue will skip the number; "jumps over" one iteration in the loop.
+ //break will take you out of the loop and the loop stops; "jumps out" of a loop.
+
+//A while loop repeats some code an infinate number of time "do this while this"
+
+let count = 0; 
+while (count < 3) { 
+  console.log("Hello"); 
+ count++; 
+}
+//012345
+
+//a do while loop does the opposite of while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested
+
+let i=0
+do { 
+console.log(i)
+i++
+} while (i <=5)
+//012345
+
+let x = 5; 
+do { 
+  console.log("Hello"); 
+ x--; 
+} while (!x > 0);
+
+//A for of loop is used to iterate through an array 
+//syntax: 
+for (const element of array){ 
+    console.log(num)
+}
+
+//1. define the array 
+const numbers = [1, 2, 3, 4, 5]
+for (const num of numbers){ 
+    console.log(num)
+}
+
+const webClasses = [HTML, CSS, JS, REACT]
+for(const classes of webClasses){ 
+    console.log(classes.toupperCase())
+}

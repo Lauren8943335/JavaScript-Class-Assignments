@@ -1,0 +1,6 @@
+// Checks if sum of the elements are similar in some way
+
+const names = ["Cydney", "Jade", "Kenzie", "Oakie"]
+const bools = [ true, true, true, true]
+const areSomeTrue = bools.some((b) => b === true)
+console.log(areSomeTrue)

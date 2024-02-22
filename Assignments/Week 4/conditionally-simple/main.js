@@ -2,49 +2,46 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
-function isItLong(){ 
-  let 
-}
-var isItLong = ("That's a long string!"); 
-console.log(isItLong.length)
-if (isItLong >= 20) { 
-  console.log(isItLong)
-} else { 
-  console.log("undefined")
+
+function isItLong(str) {
+  if (str.length > 20) {
+      return "That's a long string!";
+  }
 }
 
-var isItMedium= ("That's a regular sized string!"); 
-console.log(isItMedium.length)
-if (isItMedium <=10  ) { 
- console.log(isItMedium)
+function isItMedium(str) {
+  if (str.length >= 10 && str.length <= 20) {
+      return "That's a regular sized string!";
+  }
 }
 
-if (isItShort < 10 ) { 
-console.log("That's a small string!");
-} else if (isItShort >10 ) { 
-console.log("That's not a small string!"); 
-} else if  (isItShort = 10) { 
-   console.log("That's not a small string!"); 
+function isItShort(str) {
+  if (str.length < 10) {
+      return "That's a small string!";
+  } else {
+      return "That's not a small string!";
+  }
 }
 
-if (howLongIsMyString >= 20) {
-console.log("That's a long string!"); 
-} else if (howLongIsMyString <=20) { 
- console.log("That's a regular sized string!"); 
-} else if (howLongIsMyString = 10-20) { 
-  console.log("That's a regular sized string!"); 
-} else if (howLongIsMyString=10){
-  console.log("That's a regular sized string!"); 
- } else { 
-   console.log("That's a regular sized string!"); 
- }
+ function howLongIsMyString(str) {
+  if (str.length > 20) {
+      return "That's a long string!";
+  } else if (str.length >= 10 && str.length <= 20) {
+      return "That's a regular sized string!";
+  } else {
+      return "That's a small string!";
+  }
+}
 
-if (personsHeight = "Shaq") { 
-  console.log ("85"); 
-} else if (personsHeight = "Zooey") {  
-  console.log ("65"); 
-}else { 
-  console.log ("I don't know everyone's height!"); 
+
+function personsHeight(person) {
+  if (person === "Shaq") {
+      return 85;
+  } else if (person === "Zooey") {
+      return 65;
+  } else {
+      return "I don't know everyone's height!";
+  }
 }
 
 /**********************************

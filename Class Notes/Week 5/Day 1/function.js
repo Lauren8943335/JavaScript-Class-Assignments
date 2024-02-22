@@ -1,4 +1,3 @@
-
 //JS Functions
 //A function is a reusable block of code or programming statements designed to perform a certain task. 
 //A function is declared by a function key word followed by a name, followed by parentheses (). 
@@ -8,16 +7,16 @@
 
 //A function can be declared or created in couple of ways:
 
-//Declaration function
-function myFunction() {
-  //code
-}
+// //Declaration function
+// function myFunction() {
+//   //code
+// }
 myFunction()
 
 function myName() {
-  let name = "Bridgett"
-  console.log(name)
-}
+let name = "Bridgett"
+console.log(name)
+ }
 myName()
 
 //Expression function
@@ -25,7 +24,7 @@ myName()
 const add = function(n) {
   return n + n
 }
-console.log(add(1)
+console.log(add(1))
 
 //Anonymous function
 //const sum = function(n) {
@@ -34,37 +33,43 @@ console.log(add(1)
 ////console.log(sum(1)
 
 //Arrow function
-//const myFunction = n => {
-  //code
-//}
+const myFunction = n => {
+
+}
 //myFunction()
 
 
 //Creating a function with a parammeter
-// function myName(param1) {
-//   let name = "Bridgett"
-//   console.log(name)
-// }
-// myName("Carlos")
+function myName(param1) {
+let name = "Bridgett"
+console.log(name)
+}
+myName("Carlos")
 
-// function square(number) {
-//   return number * number
+function square(number) {
+return number * number
 
-// }
-// square(10)
+}
+square(10)
 
 
 // //functions with two parameters
-// function functionName(parm1, parm2) {
+function functionName(parm1, parm2) {
 //   //code goes here 
-// }
-// functionName(parm1, parm2)
+}
+functionName(1, 2)
 
 // //example
-// function addNumbers(num1, num2) {
-//   let sum = num1 + num2
-//   console.log(sum)
-// }
-// addNumbers(10, 20)
-)
+function addNumbers(num1, num2) {
+let sum = num1 + num2
+console.log(sum)
+}
+addNumbers(10, 20)
 
+function myFunction(p,q) { 
+  let p = 10
+  let q = 1
+  let sum = p % q
+  console.log(sum)
+}
+myFunction()

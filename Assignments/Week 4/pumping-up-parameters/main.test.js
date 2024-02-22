@@ -1,12 +1,36 @@
-/*
-
-Your code goes below.
-
-*/
 
 
+//Your code goes below.
+
+let x = 3; 
+let y = 10;
+let z = 5; 
+let name = "Lauren"; 
+let greeting = "HEY"; 
+
+function multiply() { 
+let x = num1 * num2 
+console.log(x)
+}
+multiply(3,15)
+
+function modYBy () { 
+  y = 10 % 4 
+}
 
 
+function opposite() { 
+  z = -3
+}
+console.log(opposite)
+
+function makeFullName() { 
+return name = "Lauren" + " " + "Rose"
+}
+
+function yellAt() { 
+return greeting = "HEY" + "," + " " + name + "!"
+}
 
 /*********************************************************************************************************************
 

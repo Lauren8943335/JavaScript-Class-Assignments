@@ -1,7 +1,13 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+sum = 0 
+const addAll = function (arr){  
+  for(let num of arr){ 
+  sum = sum + num
+  }
+  return sum
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *

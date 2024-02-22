@@ -1,8 +1,170 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function xify(str){
+  let newStr = ''
 
+  for(let i = 0; i < str.length; i++){
+   newStr += 'x'
+  } 
+return newStr
+}
 
+function yellingChars(str){
+  let moon = ''
+
+for(let i = 0; i < str.length; i++){
+  moon += str[i] + '!'
+} return moon
+  }
+
+  function indexedChars(str){
+    let index = ""
+
+    for(let i = 0; i < str.length; i++){
+      index += i + str[i]
+    } return index
+}
+
+function numberedChars(str){
+  let number = ''
+   
+  for(let i = 0; i < str.length; i++){
+    number += ('(' + (i + 1) + ')' + str[i])
+  } return number
+}
+
+function exclaim(str){
+  let newStr = ""
+  
+  for(let i = 0; i < str.length; i++){
+    if(str[i] === '?' || str[i] === '.'){
+      xclaim += '!'
+    }else{
+      xclaim += str[i]
+    }
+  } return xclaim
+}
+
+function repeatIt(str, n){
+  let repeat = ''
+
+  for(let i = 0; i < n; i++){
+    repeat += str
+   } return repeat 
+} 
+
+function truncate(str){
+  let final = ""
+
+  if(str.length <= 18){
+    return str
+  }else{
+  for(let char of str){
+    if(trunc.length < 15){
+      trunc = trunc + char
+    }
+  } return trunc + '...'
+}
+}
+
+function ciEmailify(str){ 
+  let lower = str.toLowerCase()
+    let newStr = lower.indexOf(" ") + 1
+    email= ""
+    for (let i = newStr; i < lower.length; i++){
+      email= email+ lower[i]
+    }
+    return lowerStr[0] + email + ".prsvr@gmail.com"
+  }
+
+  function reverse(str){
+    let reversed = ''
+  
+    for(let i = str.length - 1; i >= 0; i--){
+      reversed += str[i]
+    }return reversed
+  }
+
+function onlyVowels() { 
+    let vowels = ''
+    
+    for(let i = 0; i < str.length; i++){
+      let letter = str[i]
+      if('aeiouAEIOU'.includes(letter)){
+        vowels += letter
+      }
+    } return vowels
+    }
+
+    function crazyCase(str) {
+      let newStr = "";
+      let sillyStr = false;
+      for (let char of str){
+        if (sillyStr) {
+          char = char.toUpperCase();
+        } else {
+          char = char.toLowerCase();
+        }
+        newStr += char;
+        sillyStr = !sillyStr;
+      }
+      return newStr;
+    }
+
+    function titleCase(str){
+      
+      let newStr = ''
+      let capatilize = true
+      
+      
+      for(let char of str){
+        if(capatilize){
+          char = char.toUpperCase()
+        }
+        else{
+          char = char.toLowerCase()
+        }
+        newStr += char
+        capatilize = (char === " ")
+      }
+        return newStr
+      }
+
+      function camelCase(str){
+        let camelStr = ''
+        
+        for(let i = 0; i < str.length; i++){
+          let char = str[i]
+          if(char !== " "){
+            if(i > 0 && str[i - 1] === " "){
+              char = char.toUpperCase()
+            }else{
+              char = char.toLowerCase()
+            } camelStr += char
+          }
+        } return camelStr
+        }
+
+        function crazyCase2ReturnOfCrazyCase(str){
+          let newStr = ''
+          let sillyCase = false
+          
+          for(let char of str){
+            if(char !== " "){
+              if(sillyCase){
+                char = char.toUpperCase()
+              }else{
+                char = char.toLowerCase()
+              }
+              sillyCase = !sillyCase 
+            }
+             newStr += char
+            
+          }return newStr
+          }
+        
+      
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
