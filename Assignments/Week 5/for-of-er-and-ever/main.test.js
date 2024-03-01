@@ -1,13 +1,58 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-sum = 0 
-const addAll = function (arr){  
+
+const addAll = function(arr){
+  let sum = 0  
   for(let num of arr){ 
-  sum = sum + num
+  sum += num
   }
   return sum
 }
+
+const countSpaces = function(arr){ 
+  let
+}
+
+const countTrues = function(arr){ 
+  
+}
+
+const makeFriendly = function(str){ 
+let 
+}
+
+const cubeAll = function(arr){ 
+  let cubed = []
+  for(let num of arr){ 
+    cubed.push(num**3)
+  }
+  return cubed
+}
+
+const addNoises = function(arr){ 
+  let 
+}
+
+const womenOnly = function(arr){ 
+  let female = []
+  for(let name of arr) {
+    if (name[name.length -1] === "F")
+    female.push(name)
+}
+return female
+}
+
+const integersOnly = function(arr){ 
+  let integers = []
+  for(let num of arr){ 
+ if(num  % 1 === 0){
+ integers.push(num)
+  }
+}
+  return integers
+}
+
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *

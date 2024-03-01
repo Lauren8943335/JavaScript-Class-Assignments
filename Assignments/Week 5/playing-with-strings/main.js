@@ -35,15 +35,15 @@ function numberedChars(str){
 }
 
 function exclaim(str){
-  let newStr = ""
+  let newSt = ""
   
   for(let i = 0; i < str.length; i++){
     if(str[i] === '?' || str[i] === '.'){
-      xclaim += '!'
+      newSt += '!'
     }else{
-      xclaim += str[i]
+      newSt += str[i]
     }
-  } return xclaim
+  } return newSt
 }
 
 function repeatIt(str, n){
@@ -55,27 +55,27 @@ function repeatIt(str, n){
 } 
 
 function truncate(str){
-  let final = ""
+  let finalTnc = ""
 
   if(str.length <= 18){
     return str
   }else{
   for(let char of str){
-    if(trunc.length < 15){
-      trunc = trunc + char
+    if(finalTnc.length < 15){
+      finalTnc = finalTnc + char
     }
-  } return trunc + '...'
+  } return finalTnc + '...'
 }
 }
 
 function ciEmailify(str){ 
-  let lower = str.toLowerCase()
-    let newStr = lower.indexOf(" ") + 1
+  let fullName = str.toLowerCase()
+    let newStr = fullName.indexOf(" ") + 1
     email= ""
-    for (let i = newStr; i < lower.length; i++){
-      email= email+ lower[i]
+    for (let i = newStr; i < fullName.length; i++){
+      email= email+ fullName[i]
     }
-    return lowerStr[0] + email + ".prsvr@gmail.com"
+    return fullName[0] + email + ".prsvr@gmail.com"
   }
 
   function reverse(str){
@@ -86,7 +86,7 @@ function ciEmailify(str){
     }return reversed
   }
 
-function onlyVowels() { 
+function onlyVowels(str) { 
     let vowels = ''
     
     for(let i = 0; i < str.length; i++){
@@ -163,9 +163,7 @@ function onlyVowels() {
             
           }return newStr
           }
-        
-      
-
+  
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
