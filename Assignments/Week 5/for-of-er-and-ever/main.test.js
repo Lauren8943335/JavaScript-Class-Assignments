@@ -11,16 +11,36 @@ const addAll = function(arr){
 }
 
 const countSpaces = function(arr){ 
-  let
+  let spaces = 0 
+  for( let char of str){ 
+    if(char === " "){ 
+      spaces = spaces +1
+    }
+  }
+  return spaces 
 }
 
 const countTrues = function(arr){ 
-  
+  let trues = 0 
+  for( let boolean of arr){ 
+    if(boolean === " "){ 
+      true = trues +1
+    }
+  }
+  return trues
 }
 
 const makeFriendly = function(str){ 
-let 
+let str = " "
+for(let char of str1){ 
+if(char !== "."){ 
+  str = str + char
+} else { 
+  str = str + "!"
 }
+ }
+ return str
+} 
 
 const cubeAll = function(arr){ 
   let cubed = []
@@ -31,7 +51,17 @@ const cubeAll = function(arr){
 }
 
 const addNoises = function(arr){ 
-  let 
+  let noNoises = []
+  for (let name of arr) { 
+  if(name === "Fin" || name === "Chuck" || name === "Manuel"){ 
+    noNoises.push(name + 'says "Woof!"')
+  } else if(name === "Mickey" || name === "Minnie") { 
+    noNoises.push(name + 'says "Meow!"')
+  } else if ((name === "Simba" || name === "Timba")){ 
+    noNoises.push(name + 'says "Roar"')
+  }
+  }
+  return noNoises
 }
 
 const womenOnly = function(arr){ 
