@@ -69,7 +69,7 @@ function truncate(str){
 }
 
 function ciEmailify(str){ 
-  let fullName = str.toLowerCase()
+  let fullName = str.toUpperCase()
     let newStr = fullName.indexOf(" ") + 1
     email= ""
     for (let i = newStr; i < fullName.length; i++){
